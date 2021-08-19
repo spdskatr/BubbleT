@@ -1,0 +1,17 @@
+cabal-version:       >=1.10
+
+name:                bubblet
+version:             0.1.0.0
+license-file:        LICENSE
+author:              spdskatr
+maintainer:          25078279+spdskatr@users.noreply.github.com
+build-type:          Simple
+
+library
+  exposed-modules:
+    BubbleT,
+    BubbleT.Utils
+  build-depends:
+    base >=4.13 && <4.14,
+    comonad >=5.0.8
+  default-language:    Haskell2010
